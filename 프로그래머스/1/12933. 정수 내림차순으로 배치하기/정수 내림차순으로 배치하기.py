@@ -5,7 +5,8 @@ def solution(n):
         answer.append(i)
     answer.sort()
     answer.reverse()
-    for i in answer:
-        value+=i
-    return int(value)
+    # for i in answer:
+    #     value+=i
+    # return int(value)
+    return int("".join(answer))
        
